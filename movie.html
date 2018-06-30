@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!--        标题和标题图片-->
+        <title>皮金的微视频</title>
+        <link href="皮.ico" rel="shortcut icon">
+    <!--        引用main.css-->
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <meta charset="utf-8">        
+    </head>
+
+    <body id="movie_page">
+        <div class="title">
+            <header class="main-header">
+                <div class="logo_container">                   
+                    <h1 class="main-logo">
+<!--                        以房子图片为链接，点击链接回到主页-->
+                        <a href="index.html"><img width="100" src="home.png"></a>             
+                    </h1>
+                    <h2>Movie</h2>
+                </div>
+                <div class='ribbon'>
+                    <a href="movie.html"><li class="movie"><span>Movie</span></li></a>
+                    <a href="ps.html"><li class="ps"><span>Photoshop</span></li></a>
+                    <a href="game.html"><li class="game"><span>Game</span></li></a>
+                </div>
+            </header>
+            <section class="text">
+                <h2 class="movie_color">MOVIE</h2>
+                <hr>
+            </section>
+
+
+            <div class="example">
+                <ul class="inner">
+                    <li class="item">
+                        <h3>微视频制作</h3>
+    <!--                    引用视频-->
+                        <video controls="controls">
+                            <source src="微视频/武侠微视频.mp4" type="video/mp4">
+                        </video>
+                    </li>
+                    <hr>
+                    <li class="item">
+                        <h3>微视频海报</h3>
+                        <img src="微视频/海报.png" />
+                    </li>
+                    <hr>
+                    <li class="item">
+                        <h3>微视频剧组照</h3>
+                        <img src="微视频/视频照片.png" />
+                    </li>
+                    <hr>
+                    <li class="item">
+                        <h3>字体代码</h3>
+                        <video controls="controls">
+                            <source src="gif/字体代码.mp4" type="video/mp4">
+                        </video>
+                    </li>
+                    <hr>
+                </ul>
+            </div>
+    <!--        页脚-->
+            <footer>皮金 &copy; 2018</footer>
+        </div>
+            <script src="js/jquery-3.2.1.min.js" ></script>
+            <script src="js/jquery.transit.min.js"></script>
+            <script src="js/app.js"></script>
+    </body>
+</html>
